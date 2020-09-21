@@ -1,0 +1,25 @@
+{
+    "baseUrl": "http://localhost:3000",
+    "responseTimeout": 50000,
+    "pageLoadTimeout": 50000,
+    "defaultCommandTimeout": 20000,
+    "chromeWebSecurity": false,
+    "trashAssetsBeforeRuns": true,
+    "watchForFileChanges": false,
+    "screenshotOnRunFailure": true,
+    "failOnStatus": false,
+    "integrationFolder": "cypress/tests",
+    "screenshotsFolder": "cypress/screenshots",
+    "env": {
+      "RETRIES": 0,
+      "mode": "desktop"
+    },
+    "reporter": "../../node_modules/mochawesome",
+    "reporterOptions": {
+      "reportDir": "./cypress/report",
+      "reportTitle": "QA Task",
+      "overwrite": false,
+      "html": false,
+      "json": true
+    }
+  }
